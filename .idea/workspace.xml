@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c415ddd9-7029-4296-a306-f24b1e30067d" name="Default Changelist" comment="" />
+    <list default="true" id="c415ddd9-7029-4296-a306-f24b1e30067d" name="Default Changelist" comment="chapitre 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +28,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -164,11 +185,35 @@
       <updated>1606595802994</updated>
       <workItem from="1606595804494" duration="14700000" />
       <workItem from="1606646534727" duration="2103000" />
+      <workItem from="1606648661528" duration="701000" />
     </task>
+    <task id="LOCAL-00001" summary="chapitre 5">
+      <created>1606648711057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606648711057</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chapitre 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapitre 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="419" key="#Composer" timestamp="1606595838955">
@@ -183,5 +228,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="766" y="222" key="#com.intellij.ide.util.MemberChooser/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1606607818837" />
+    <state x="553" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606648721836">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="553" y="273" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1606648721836" />
   </component>
 </project>
