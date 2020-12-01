@@ -19,21 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c415ddd9-7029-4296-a306-f24b1e30067d" name="Default Changelist" comment="chapitre 5">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20201201201536.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+    <list default="true" id="c415ddd9-7029-4296-a306-f24b1e30067d" name="Default Changelist" comment="chapitre 6">
+      <change afterPath="$PROJECT_DIR$/config/packages/knp_paginator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataFixtures/PropertyFixture.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/PropertySearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/PropertySearchType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/property/_property.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/masuperagence.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/masuperagence.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PropertyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PropertyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/PropertyRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/PropertyRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/property/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/property/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +160,9 @@
       <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kvzM9x28r6kXNCRjcsmUXn75EE" />
@@ -173,7 +177,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/translations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Entity" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -186,19 +190,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\MAMP\htdocs\masuperagence\translations" />
-      <recent name="C:\MAMP\htdocs\masuperagence\src" />
-      <recent name="C:\MAMP\htdocs\masuperagence\templates" />
-      <recent name="C:\MAMP\htdocs\masuperagence\src\Repository" />
-      <recent name="C:\MAMP\htdocs\masuperagence\src\Controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\MAMP\htdocs\masuperagence\templates" />
       <recent name="C:\MAMP\htdocs\masuperagence\src\Controller" />
       <recent name="C:\MAMP\htdocs\masuperagence\templates\home" />
       <recent name="C:\MAMP\htdocs\masuperagence\src\Repository" />
       <recent name="C:\MAMP\htdocs\masuperagence\src\Entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\masuperagence\src\Entity" />
+      <recent name="C:\MAMP\htdocs\masuperagence\src\Form" />
+      <recent name="C:\MAMP\htdocs\masuperagence\config\packages" />
+      <recent name="C:\MAMP\htdocs\masuperagence\templates\property" />
+      <recent name="C:\MAMP\htdocs\masuperagence\translations" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -214,7 +218,7 @@
       <workItem from="1606648661528" duration="3066000" />
       <workItem from="1606676324565" duration="16000" />
       <workItem from="1606817396698" duration="94000" />
-      <workItem from="1606853631255" duration="2513000" />
+      <workItem from="1606853631255" duration="6466000" />
     </task>
     <task id="LOCAL-00001" summary="chapitre 5">
       <created>1606648711057</created>
@@ -230,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606651178053</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chapitre 6">
+      <created>1606856185664</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606856185664</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chapitre 6">
+      <created>1606856204886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606856204886</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +269,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="chapitre 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapitre 5" />
+    <MESSAGE value="chapitre 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapitre 6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="419" key="#Composer" timestamp="1606595838955">
@@ -266,9 +285,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="766" y="222" key="#com.intellij.ide.util.MemberChooser/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1606607818837" />
-    <state x="553" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606651181895">
+    <state x="553" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606856208426">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="273" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1606651181895" />
+    <state x="553" y="273" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1606856208426" />
   </component>
 </project>
